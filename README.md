@@ -9,9 +9,9 @@
   </a>
 </p>
 
-> we are building a small wrapper SDK for boredapi
+> Let's build a small wrapper SDK for boredapi
 
-### 🏠 [Homepage](what we will do)
+### 🏠 [Homepage](https://www.boredapi.com/)
 
 ### ✨ [Demo](https://www.boredapi.com/)
 
@@ -55,7 +55,7 @@ module.exports = { getARandomActivity };
 ##  Publish the SDK package to NPM (Node Package Manager)
 
 ```sh
-[//]: # (If you don't have an npm account - Create one :)
+# If you don't have an npm account - Create one :)
 
 https://www.npmjs.com/signup
 ```
@@ -92,8 +92,6 @@ touch test.js
 ```
 
 ```sh
-//test.js
-
 const boredApi = require('boredapi');
 
 boredApi.getARandomActivity()
