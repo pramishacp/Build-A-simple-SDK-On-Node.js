@@ -55,6 +55,12 @@ module.exports = { getARandomActivity };
 ##  Publish the SDK package to NPM (Node Package Manager)
 
 ```sh
+[//]: # (If you don't have an npm account - Create one :)
+
+https://www.npmjs.com/signup
+```
+
+```sh
 npm login
 ```
 
@@ -74,6 +80,18 @@ cd test
 ```
 
 ```sh
+npm init
+```
+
+```sh
+npm install boredapi
+```
+
+```sh
+touch test.js
+```
+
+```sh
 //test.js
 
 const boredApi = require('boredapi');
@@ -87,16 +105,9 @@ boredApi.getARandomActivity()
 ```
 
 ```sh
-npm init
-```
-
-```sh
-npm install boredapi
-```
-
-```sh
 node test.js
 ```
+
 ## Author
 
 👤 **Pramisha C P**
