@@ -1,0 +1,32 @@
+{
+  "name": "Build-A-simple-SDK-On-Node.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pramishacp/Build-A-simple-SDK-On-Node.js.git"
+  },
+  "keywords": [
+    "boredapi",
+    "api",
+    "sdk",
+    "javascript",
+    "nodejs",
+    "tutorial",
+    "example"
+  ],
+  "author": "Pramisha C P",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pramishacp/Build-A-simple-SDK-On-Node.js/issues"
+  },
+  "homepage": "https://github.com/pramishacp/Build-A-simple-SDK-On-Node.js#readme",
+  "dependencies": {
+    "axios": "^0.23.0"
+  },
+  "devDependencies": {}
+}
